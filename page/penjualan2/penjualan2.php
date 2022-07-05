@@ -12,7 +12,7 @@
       <div class="col-12">
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title"><b> DATA PENJUALAN HARIAN </b></h3>
+            <h3 class="card-title"><b> DATA PENJUALAN </b></h3>
           </div>
           <!-- /.card-header -->
           <div class="card-body">
@@ -41,7 +41,9 @@
                         <td><?php echo rupiah($data['total_dibayar']);?></td>
                         
                         <td>
-                          <a href="?page=penjualan2&aksi=lihat&kode_nota=<?php echo $data['kode_nota']; ?> & admin=<?php echo $admin; ?>" class="btn btn-success"><i class="fa fa-eye"></i>
+                          <a href="?page=penjualan2&aksi=lihat&no=<?php echo $data['no']; ?> "class="btn btn-success"><i class="fa fa-eye"></i>
+                           </a>
+                           <a href="?page=penjualan2&aksi=hapus&kode_nota=<?php echo $data['kode_nota']; ?> & admin=<?php echo $admin; ?>" class="btn btn-danger"><i class="fa fa-trash"></i>
                            </a>
                         </td>
                     </tr>
