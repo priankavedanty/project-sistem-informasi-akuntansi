@@ -48,7 +48,7 @@
           <p>Dashboard</p>
         </a>
       </li>
-      <?php if (@$_SESSION['admin'] || @$_SESSION['gudang'] ) { ?>
+      <?php if (@$_SESSION['admin']) { ?>
       <li class="nav-item">
         <a href="#" class="nav-link">
           <i class="nav-icon fas fa-table"></i>
@@ -77,7 +77,6 @@
             </a>
           </li>
         </ul>
-      <?php } if (@$_SESSION['admin']) { ?>
       <li class="nav-item">
         <a href="#" class="nav-link">
           <i class="nav-icon fas fa-table"></i>
@@ -100,15 +99,6 @@
             </a>
           </li>
         </ul>
-      <?php } if (@$_SESSION['gudang']) { ?>
-        <li class="nav-item">
-        <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-table"></i>
-          <p>
-            Data transaksi
-            <i class="right fas fa-angle-left"></i>
-          </p>
-        </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
             <a href="?page=pembelian&kode_faktur=<?php echo $kode_faktur; ?>" class="nav-link">
