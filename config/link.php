@@ -103,7 +103,7 @@ if ($_GET["page"] == "") {
     {
         include "page/penjualan2/penjualan2.php";
     }elseif ($aksi == "lihat") {
-        include "page/penjualan2/lihat.php";   
+        include "page/penjualan2/lihat2.php";   
     }elseif ($aksi == "hapus") {
         include "page/penjualan2/hapus.php";   
     }elseif ($aksi == "kembali") {
@@ -121,7 +121,7 @@ if ($_GET["page"] == "") {
     {
         include "page/pembelian2/pembelian2.php";
     }elseif ($aksi == "lihat") {
-        include "page/pembelian2/lihat.php";   
+        include "page/pembelian2/lihat2.php";   
     }elseif ($aksi == "hapus") {
         include "page/pembelian2/hapus.php";   
     }elseif ($aksi == "kembali") {
@@ -614,48 +614,3 @@ if ($_GET["page"] == "") {
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
