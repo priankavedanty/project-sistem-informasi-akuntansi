@@ -15,8 +15,6 @@
         $user = $_SESSION['akunting'];
     }else if (@$_SESSION['direktur']) {
         $user = $_SESSION['direktur'];
-    }else if (@$_SESSION['gudang']) {
-        $user = $_SESSION['gudang'];
     }
 
     $sql = $koneksi->query("SELECT * FROM tb_pegawai WHERE user_id='$user'");
