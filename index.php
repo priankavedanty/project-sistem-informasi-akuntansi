@@ -7,7 +7,7 @@ include "kode_faktur.php";
 include "no_transaksi.php";
 include "no_kartu.php";
 
-    if (@$_SESSION['admin'] || @$_SESSION['direktur'] || @$_SESSION['akunting'] || @$_SESSION['gudang']) {   
+    if (@$_SESSION['admin'] || @$_SESSION['direktur'] || @$_SESSION['akunting']) {   
 
 ?>
 
