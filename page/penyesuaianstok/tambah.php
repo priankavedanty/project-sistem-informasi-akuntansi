@@ -50,8 +50,8 @@
         </select>
       </div>
       <div class="form-group">
-        <label>Stok</label>
-        <input type="number" name="masuk" class="form-control" placeholder="Enter stok" required oninvalid="this.setCustomValidity('Data tidak boleh kosong')" >
+        <label>Stok awal</label>
+        <input type="number" name="masuk" class="form-control" placeholder="Enter stok dipesan" required oninvalid="this.setCustomValidity('Data tidak boleh kosong')" >
       </div>
       <div class="form-group">
         <label>Stok nyata</label>
