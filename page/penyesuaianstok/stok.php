@@ -14,11 +14,11 @@
             <table id="example1" class="table table-bordered table-hover">
               <thead>
               <tr>
-				        <th>No</th>
+		<th>No</th>
                 <th>Tanggal</th>
                 <th>Kode</th>
                 <th>Nama barang</th>
-                <th>Stok</th>
+                <th>Stok awal</th>
                 <th>Stok nyata</th>
                 <th>Selisih stok</th>
                 <th>Aksi</th>
@@ -55,7 +55,7 @@
                 <th>Tanggal</th>
                 <th>Kode</th>
                 <th>Nama barang</th>
-                <th>Stok</th>
+                <th>Stok awal</th>
                 <th>Stok nyata</th>
                 <th>Selisih stok</th>
                 <th>Aksi</th>
