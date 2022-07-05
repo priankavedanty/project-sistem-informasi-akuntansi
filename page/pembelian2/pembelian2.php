@@ -44,13 +44,15 @@
                         <td><?php echo rupiah($data['total_dibayar']);?></td>
                         <td><?php echo $data['status'];?></td>
                         <td>
-                            <a href="?page=pembelian2&aksi=lihat&kode_faktur=<?php echo $data['kode_faktur']; ?> & admin=<?php echo $admin; ?>" class="btn btn-success"><i class="fa fa-eye"></i>
+                            <a href="?page=pembelian2&aksi=lihat&no=<?php echo $data['no']; ?>" class="btn btn-success"><i class="fa fa-eye"></i>
+                           </a>
+                           <a href="?page=pembelian2&aksi=hapus&kode_nota=<?php echo $data['kode_nota']; ?> & admin=<?php echo $admin; ?>" class="btn btn-danger"><i class="fa fa-trash"></i>
                            </a>
                         </td>
                         <td>
                           <form action="" method="POST">
                             <input type="hidden" name="no" value="<?php echo $data['no']; ?>">
-                            <input type="submit" name="approve" value="Terima" class="btn btn-primary">
+                            <input type="submit" name="approve" value="Terima" class="btn btn-success">
                           </form>
                         </td>
                     </tr>
@@ -97,4 +99,3 @@ if (isset($_POST['approve'])) {
 }
 
 ?>
-
